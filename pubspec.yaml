@@ -1,0 +1,38 @@
+name: video_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # play videos on version more than 1.0.1
+  video_player: ^1.0.1
+
+  # pick video from file system on version more than 2.1.5+1
+  file_picker: ^2.1.5+1
+
+  # prevent screen from sleeping on version more than 0.2.1+1
+  wakelock: ^0.2.1+1
+
+  # switch orientation  on version 1.0.1
+  auto_orientation: 1.0.1
+
+  # listen to orientation on version more than 0.4.3
+  native_device_orientation: ^0.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/First_Flight_Scene_IRON_MAN.mp4
